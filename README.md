@@ -3,7 +3,8 @@
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/MaivandRahmani) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:maivand123r@gmail.com) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rahmani_maivand
+) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:maivand123r@gmail.com) 
 
 # 💻 Tech Stack:
 <p align="" style="width: 100%; display: flex; gap: 2px;">
