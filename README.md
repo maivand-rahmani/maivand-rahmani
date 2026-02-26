@@ -1,6 +1,12 @@
 # 💫 About Me:
-### 🚀 Hello! My name is Maivand Rahmani.<br><br>- Student of the Moscow University of Finance and Law, studying **information systems and programming**.<br>- I am interested in web development (JS , React , Next.js )<br>- I do small projects to improve my skills  <br>- I plan to become a FullStack developer
+Frontend Developer building real products, not just tutorials.
 
+Working with React, Next.js, and Tailwind CSS.  
+Currently diving into TypeScript and deeper engineering concepts.
+
+I value clean code, performance, and practical solutions.
+
+Goal: grow into a strong product-oriented developer and start delivering value through real projects.
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rahmani_maivand
