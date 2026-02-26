@@ -1,12 +1,12 @@
 # 💫 About Me:
-Frontend Developer building real products, not just tutorials.
+### Frontend Developer building real products, not just tutorials.
 
-Working with React, Next.js, and Tailwind CSS.  
-Currently diving into TypeScript and deeper engineering concepts.
+### Working with React, Next.js, and Tailwind CSS.  
+### Currently diving into TypeScript and deeper engineering concepts.
 
-I value clean code, performance, and practical solutions.
+### I value clean code, performance, and practical solutions.
 
-Goal: grow into a strong product-oriented developer and start delivering value through real projects.
+## Goal: grow into a strong product-oriented developer and start delivering value through real projects.
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rahmani_maivand
