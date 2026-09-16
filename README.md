@@ -75,7 +75,8 @@ Its the first really intresting product I'm building with ai.
 ## Things I use
 
 `TypeScript` `JavaScript` `React` `Next.js` `Tailwind CSS` `Node.js` `Prisma`
-`PostgreSQL` `Git` `Vitest`
+`PostgreSQL` `Git` `Vitest` </br>
+`And a lot of libraries and stuff :)`
 
 ## Find me here
 
