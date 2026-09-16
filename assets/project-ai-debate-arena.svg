@@ -1,0 +1,83 @@
+<svg width="760" height="300" viewBox="0 0 760 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="arena-bg" x1="0" y1="0" x2="760" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7EFE3"/>
+      <stop offset="1" stop-color="#E8D8C7"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="220" y1="220" x2="680" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3A2929"/>
+      <stop offset="1" stop-color="#4A3040"/>
+    </linearGradient>
+    <linearGradient id="judge-platform" x1="366" y1="102" x2="430" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8D889"/>
+      <stop offset="1" stop-color="#D99A45"/>
+    </linearGradient>
+    <filter id="arena-shadow" x="30" y="26" width="700" height="250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#402B2B" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="760" height="300" rx="20" fill="url(#arena-bg)"/>
+  <circle cx="84" cy="28" r="94" fill="#C96F55" fill-opacity="0.12"/>
+  <circle cx="708" cy="270" r="110" fill="#6B3B59" fill-opacity="0.12"/>
+
+  <g filter="url(#arena-shadow)">
+    <rect x="42" y="34" width="676" height="232" rx="16" fill="#FFF9F0" stroke="#B89478" stroke-opacity="0.65"/>
+    <path d="M42 76H718" stroke="#D8BFA8"/>
+    <circle cx="64" cy="55" r="4" fill="#C96F55"/>
+    <circle cx="78" cy="55" r="4" fill="#D99A45"/>
+    <circle cx="92" cy="55" r="4" fill="#6B3B59"/>
+    <text x="116" y="60" fill="#4A3040" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">AI DEBATE ARENA</text>
+    <rect x="570" y="46" width="124" height="20" rx="10" fill="#F3E5D5"/>
+    <text x="588" y="60" fill="#7A4C3F" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">MATCH / 05:00</text>
+
+    <rect x="58" y="92" width="136" height="154" rx="10" fill="#38292A"/>
+    <text x="74" y="112" fill="#EFDCC8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">MATCH MODES</text>
+
+    <rect x="70" y="124" width="112" height="32" rx="7" fill="#C96F55"/>
+    <text x="82" y="138" fill="#FFF7ED" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">QUICK</text>
+    <text x="82" y="150" fill="#FBE5D9" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">online / 2 agents</text>
+
+    <rect x="70" y="162" width="112" height="32" rx="7" fill="#4B3343" stroke="#D99A45" stroke-opacity="0.8"/>
+    <text x="82" y="176" fill="#F8D889" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">STANDARD</text>
+    <text x="82" y="188" fill="#EAD6C2" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">local / tools</text>
+
+    <rect x="70" y="200" width="112" height="32" rx="7" fill="#4B3343" stroke="#98728D" stroke-opacity="0.85"/>
+    <text x="82" y="214" fill="#E9C8DF" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">EXTREME</text>
+    <text x="82" y="226" fill="#EAD6C2" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">Docker / terminal</text>
+
+    <rect x="208" y="92" width="492" height="154" rx="10" fill="url(#floor)"/>
+    <path d="M208 201H700" stroke="#F8D889" stroke-opacity="0.18"/>
+    <path d="M322 246L420 92M454 246L420 92M570 246L420 92" stroke="#F8D889" stroke-opacity="0.08"/>
+    <text x="228" y="112" fill="#EFDCC8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">SIX-TURN MATCH / LIVE FLOOR</text>
+
+    <rect x="228" y="128" width="112" height="58" rx="9" fill="#B95F4C"/>
+    <circle cx="250" cy="151" r="12" fill="#FBE5D9" fill-opacity="0.22" stroke="#F7C7B7"/>
+    <path d="M244 151H256M250 145V157" stroke="#FFF7ED" stroke-width="2" stroke-linecap="round"/>
+    <text x="272" y="151" fill="#FFF7ED" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="11" font-weight="700">FOR</text>
+    <text x="272" y="166" fill="#FBE5D9" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">opening argument</text>
+    <rect x="272" y="174" width="45" height="4" rx="2" fill="#FBE5D9" fill-opacity="0.55"/>
+
+    <rect x="580" y="128" width="102" height="58" rx="9" fill="#603B55"/>
+    <circle cx="602" cy="151" r="12" fill="#E9C8DF" fill-opacity="0.18" stroke="#D8A9C9"/>
+    <path d="M596 151H608M602 145V157" stroke="#FFF7ED" stroke-width="2" stroke-linecap="round"/>
+    <text x="624" y="151" fill="#F4DCEB" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">AGAINST</text>
+    <text x="624" y="166" fill="#E9C8DF" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">counterpoint</text>
+    <rect x="624" y="174" width="37" height="4" rx="2" fill="#E9C8DF" fill-opacity="0.55"/>
+
+    <path d="M340 157C365 137 378 137 398 149" stroke="#F8D889" stroke-opacity="0.65" stroke-width="2" stroke-dasharray="4 5"/>
+    <path d="M580 157C552 137 536 137 502 149" stroke="#F8D889" stroke-opacity="0.65" stroke-width="2" stroke-dasharray="4 5"/>
+
+    <ellipse cx="450" cy="204" rx="86" ry="16" fill="#D99A45" fill-opacity="0.26"/>
+    <rect x="402" y="132" width="96" height="70" rx="12" fill="url(#judge-platform)"/>
+    <path d="M424 157H476M424 169H466M424 181H454" stroke="#704026" stroke-width="4" stroke-linecap="round"/>
+    <text x="423" y="219" fill="#F8D889" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">AI JUDGE</text>
+
+    <rect x="228" y="216" width="88" height="18" rx="9" fill="#E8B9A5" fill-opacity="0.22"/>
+    <text x="242" y="228" fill="#FBE5D9" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">PY / JS / WEB</text>
+    <rect x="328" y="216" width="92" height="18" rx="9" fill="#F8D889" fill-opacity="0.2"/>
+    <text x="342" y="228" fill="#F8D889" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">URL FETCH</text>
+    <rect x="570" y="216" width="92" height="18" rx="9" fill="#C9A6BF" fill-opacity="0.2"/>
+    <text x="586" y="228" fill="#E9C8DF" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">DOCKER / TERM</text>
+  </g>
+</svg>

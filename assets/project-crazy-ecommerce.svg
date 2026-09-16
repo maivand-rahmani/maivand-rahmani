@@ -1,0 +1,98 @@
+<svg width="760" height="300" viewBox="0 0 760 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shop-bg" x1="0" y1="0" x2="760" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090B14"/>
+      <stop offset="0.56" stop-color="#17245B"/>
+      <stop offset="1" stop-color="#3047B2"/>
+    </linearGradient>
+    <linearGradient id="hero-blue" x1="46" y1="78" x2="454" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3046B5"/>
+      <stop offset="1" stop-color="#263A9B"/>
+    </linearGradient>
+    <linearGradient id="device" x1="364" y1="94" x2="435" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1A36B"/>
+      <stop offset="1" stop-color="#A94F48"/>
+    </linearGradient>
+    <filter id="shop-shadow" x="20" y="16" width="720" height="274" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#050711" flood-opacity="0.58"/>
+    </filter>
+  </defs>
+
+  <rect width="760" height="300" rx="20" fill="url(#shop-bg)"/>
+  <circle cx="683" cy="42" r="136" fill="#6475FF" fill-opacity="0.15"/>
+  <circle cx="74" cy="274" r="112" fill="#D6A36B" fill-opacity="0.08"/>
+
+  <g filter="url(#shop-shadow)">
+    <rect x="36" y="26" width="688" height="248" rx="18" fill="#0B0D16" stroke="#5E72EA" stroke-opacity="0.65"/>
+    <path d="M36 68H724" stroke="#27335F"/>
+    <circle cx="58" cy="47" r="4" fill="#E46F83"/>
+    <circle cx="72" cy="47" r="4" fill="#D6A36B"/>
+    <circle cx="86" cy="47" r="4" fill="#63C59C"/>
+    <text x="108" y="53" fill="#F4F1E8" font-family="Georgia, Times New Roman, serif" font-size="14" font-weight="700" letter-spacing="0.4">cyber</text>
+
+    <rect x="164" y="36" width="258" height="23" rx="11.5" fill="#121521" stroke="#737B95" stroke-opacity="0.75"/>
+    <circle cx="181" cy="47" r="5" stroke="#9BA4BC" stroke-width="1.5"/>
+    <path d="M185 51L189 55" stroke="#9BA4BC" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="199" y="51" fill="#8991AB" font-family="Arial, sans-serif" font-size="9">Search products...</text>
+    <rect x="438" y="36" width="51" height="23" rx="11.5" fill="#171A2A"/>
+    <text x="451" y="51" fill="#F0F2FF" font-family="Arial, sans-serif" font-size="9" font-weight="700">Home</text>
+    <text x="506" y="51" fill="#A5ABC2" font-family="Arial, sans-serif" font-size="9">Catalog</text>
+    <text x="562" y="51" fill="#A5ABC2" font-family="Arial, sans-serif" font-size="9">About</text>
+    <circle cx="612" cy="47" r="11" fill="#161A2A" stroke="#303855"/>
+    <path d="M607 46C604 42 609 40 612 44C615 40 620 42 617 46L612 51L607 46Z" stroke="#C6CBE0" stroke-width="1.3"/>
+    <circle cx="642" cy="47" r="11" fill="#161A2A" stroke="#303855"/>
+    <path d="M636 43H641L643 50H649M643 50C642 52 645 53 646 50M639 45L637 42" stroke="#C6CBE0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="662" y="51" fill="#A5ABC2" font-family="Arial, sans-serif" font-size="8">EN/RU/FA</text>
+
+    <rect x="46" y="78" width="408" height="118" rx="10" fill="url(#hero-blue)"/>
+    <text x="66" y="101" fill="#B5C0FF" font-family="Georgia, Times New Roman, serif" font-size="16" opacity="0.85">Pro.Beyond.</text>
+    <text x="66" y="132" fill="#F8F4EB" font-family="Georgia, Times New Roman, serif" font-size="26" font-weight="700">IPhone 17</text>
+    <text x="66" y="160" fill="#F8F4EB" font-family="Georgia, Times New Roman, serif" font-size="26" font-weight="700">Pro Max</text>
+    <text x="67" y="180" fill="#B8C1EE" font-family="Georgia, Times New Roman, serif" font-size="8">Created to change everything for the better.</text>
+    <rect x="66" y="185" width="63" height="18" rx="3" fill="#22368D" stroke="#7F91F3" stroke-opacity="0.55"/>
+    <text x="78" y="197" fill="#F7F3E9" font-family="Georgia, Times New Roman, serif" font-size="9" font-weight="700">Shop now</text>
+    <rect x="360" y="93" width="55" height="89" rx="13" fill="url(#device)" stroke="#FFC38C" stroke-opacity="0.8"/>
+    <rect x="368" y="101" width="39" height="72" rx="9" fill="#141522"/>
+    <circle cx="378" cy="111" r="5" fill="#F0A36D" stroke="#5A2E32" stroke-width="2"/>
+    <circle cx="393" cy="111" r="5" fill="#F0A36D" stroke="#5A2E32" stroke-width="2"/>
+    <path d="M372 134H403M372 144H403M372 154H403" stroke="#F0A36D" stroke-opacity="0.65" stroke-width="2" stroke-linecap="round"/>
+
+    <rect x="466" y="78" width="242" height="118" rx="10" fill="#202432"/>
+    <text x="482" y="98" fill="#E9E8E2" font-family="Arial, sans-serif" font-size="8" font-weight="700" letter-spacing="1.2">PRODUCT SHOWCASE</text>
+    <text x="482" y="114" fill="#7D87AC" font-family="Arial, sans-serif" font-size="8">featured collection / related products</text>
+    <rect x="482" y="125" width="66" height="51" rx="7" fill="#3144A7"/>
+    <rect x="495" y="135" width="40" height="22" rx="3" fill="#E9EEF5"/>
+    <text x="492" y="169" fill="#DCE2FF" font-family="Arial, sans-serif" font-size="7" font-weight="700">PS5 PRO</text>
+    <rect x="556" y="125" width="66" height="51" rx="7" fill="#2E3343"/>
+    <rect x="568" y="134" width="42" height="24" rx="2" fill="#B9C8D6"/>
+    <text x="568" y="169" fill="#DCE2FF" font-family="Arial, sans-serif" font-size="7" font-weight="700">MACBOOK</text>
+    <rect x="630" y="125" width="62" height="51" rx="7" fill="#32406B"/>
+    <circle cx="661" cy="146" r="14" fill="#D8E5F1" fill-opacity="0.82"/>
+    <text x="637" y="169" fill="#DCE2FF" font-family="Arial, sans-serif" font-size="7" font-weight="700">VISION PRO</text>
+    <rect x="482" y="182" width="210" height="10" rx="5" fill="#151927"/>
+    <text x="493" y="190" fill="#9EABF1" font-family="Arial, sans-serif" font-size="7" font-weight="700">ADMIN: PRODUCTS · ORDERS · USERS · COUPONS</text>
+
+    <rect x="46" y="207" width="142" height="49" rx="9" fill="#F6F0E6"/>
+    <circle cx="67" cy="228" r="11" fill="#E5D8CF"/>
+    <path d="M62 227C59 223 64 221 67 225C70 221 75 223 72 227L67 232L62 227Z" stroke="#253C9D" stroke-width="1.5"/>
+    <text x="85" y="225" fill="#202E75" font-family="Arial, sans-serif" font-size="9" font-weight="700">WISHLIST</text>
+    <text x="85" y="239" fill="#7F8498" font-family="Arial, sans-serif" font-size="8">save for later</text>
+
+    <rect x="198" y="207" width="142" height="49" rx="9" fill="#DDE6FF"/>
+    <path d="M216 222H222L225 234H238M225 234C224 238 229 238 229 234M224 225L221 221" stroke="#253C9D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="249" y="225" fill="#202E75" font-family="Arial, sans-serif" font-size="9" font-weight="700">CART / 03</text>
+    <text x="249" y="239" fill="#53659F" font-family="Arial, sans-serif" font-size="8">coupon applied</text>
+
+    <rect x="350" y="207" width="142" height="49" rx="9" fill="#263889"/>
+    <rect x="368" y="220" width="30" height="18" rx="3" fill="#D6A36B" fill-opacity="0.9"/>
+    <path d="M374 226H392M374 231H388" stroke="#4C2E34" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="409" y="225" fill="#F4F1E8" font-family="Arial, sans-serif" font-size="9" font-weight="700">CHECKOUT</text>
+    <text x="409" y="239" fill="#BFCBFF" font-family="Arial, sans-serif" font-size="8">sandbox payment</text>
+
+    <rect x="502" y="207" width="206" height="49" rx="9" fill="#12192F" stroke="#4458BB" stroke-opacity="0.8"/>
+    <text x="518" y="225" fill="#AAB8FF" font-family="Arial, sans-serif" font-size="9" font-weight="700">ORDERS + RETURNS</text>
+    <text x="518" y="239" fill="#7783A9" font-family="Arial, sans-serif" font-size="8">history · status · return request</text>
+    <rect x="645" y="218" width="48" height="17" rx="8.5" fill="#263C79"/>
+    <text x="658" y="230" fill="#A8BCFF" font-family="Arial, sans-serif" font-size="7" font-weight="700">PAID</text>
+  </g>
+</svg>

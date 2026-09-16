@@ -1,34 +1,84 @@
-# 💫 About Me:
-### Frontend Developer building real products, not just tutorials.
+<div align="center">
+  <a href="https://port-os-seven.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg" />
+      <img src="./assets/profile-header-light.svg" alt="Maivand Rahmani — I build web things" width="100%" />
+    </picture>
+  </a>
+</div>
 
-### Working with React, Next.js, and Tailwind CSS.  
-### Currently diving into TypeScript and deeper engineering concepts.
-
-### I value clean code, performance, and practical solutions.
-
-## Goal: grow into a strong product-oriented developer and start delivering value through real projects.
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rahmani_maivand
-) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:maivand123r@gmail.com) 
-
-# 💻 Tech Stack:
-<p align="" style="width: 100%; display: flex; gap: 2px;">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JavaScript" title="JavaScript" width="36" height="36" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" alt="TypeScript" title="TypeScript" width="36" height="36" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" alt="Git" title="Git" width="36" height="36" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML5" title="HTML5" width="36" height="36" /></a><a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg" alt="NextJs" title="NextJs" width="36" height="36" /></a><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" title="React" width="36" height="36" /></a><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" alt="TailwindCSS" title="TailwindCSS" width="36" height="36" /></a><a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" alt="Sass" title="Sass" width="36" height="36" /></a><a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="CSS3" title="CSS3" width="36" height="36" /></a><a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" alt="PostgreSQL" title="PostgreSQL" width="36" height="36" /></a>
+<p align="center">
+  <a href="https://port-os-seven.vercel.app">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://t.me/MaivandR123">Telegram</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:maivand123r@gmail.com">Email</a>
 </p>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=maivand-rahmani&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=maivand-rahmani&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=maivand-rahmani&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## Hey, I'm Maivand
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Kingnew2006&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+I build web apps and product experiments.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+I started with frontend work, but I keep wandering into architecture, AI, and
+whatever else a project needs. Most of the time I'm using TypeScript, React,
+and Next.js.
 
----
-[![](https://visitcount.itsvg.in/api?id=Kingnew2006&icon=0&color=0)](https://visitcount.itsvg.in)
+## Now
 
- 
+PortOS is the main thing I'm building around right now. AI Debate Arena is the
+other project taking up a lot of my attention.
+
+## Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/maivand-rahmani/crazy-eCommerce-project">
+        <img src="./assets/project-crazy-ecommerce.svg" alt="Illustration of the Cyber storefront and Crazy eCommerce admin console" width="100%" />
+      </a>
+      <h3><a href="https://github.com/maivand-rahmani/crazy-eCommerce-project">Crazy eCommerce</a></h3>
+      <p>A full-stack e-commerce platform with a real storefront and a private admin console. It handles products and variants, cart, wishlist, multilingual routes, sandbox checkout, orders and returns, users, coupons, reviews, and a PostgreSQL database behind it.</p>
+      <p><code>Next.js</code> <code>React</code> <code>Prisma</code> <code>PostgreSQL</code></p>
+      <a href="https://crazy-e-commerce-project.vercel.app">Open the live project →</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/maivand-rahmani/PortOS">
+        <img src="./assets/project-portos.svg" alt="Illustration of the PortOS browser operating system with apps and agents" width="100%" />
+      </a>
+      <h3><a href="https://github.com/maivand-rahmani/PortOS">PortOS</a></h3>
+      <p>A real browser-based operating system inspired by macOS — with around eleven apps, my projects, my learning space, one agent that knows the context of my work and answers like me, and another agent that can actually do tasks inside the system.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Feature-Sliced Design</code></p>
+      <a href="https://port-os-seven.vercel.app">Visit PortOS →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/maivand-rahmani/ai-debate-arena">
+        <img src="./assets/project-ai-debate-arena.svg" alt="Illustration of AI Debate Arena with Quick, Standard, and Extreme match modes" width="100%" />
+      </a>
+      <h3><a href="https://github.com/maivand-rahmani/ai-debate-arena">AI Debate Arena</a></h3>
+      <p>An AI debate system with three modes: Quick is an online two-agent match in development; Standard runs locally with Python, JavaScript, web search, and URL fetch; Extreme adds Docker and terminal access. Matches can run for up to five minutes before a judge scores the result.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>AI SDK</code> <code>Vitest</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/maivand-rahmani/English-OS">
+        <img src="./assets/project-english-os.svg" alt="Illustration of the English OS personal learning system with next step, practice, review, and progress" width="100%" />
+      </a>
+      <h3><a href="https://github.com/maivand-rahmani/English-OS">English OS</a></h3>
+      <p>My attempt to build a personal operating system for learning English. It turns scattered resources, levels, practice, review, and progress into one clear path: what to learn, why now, and what to come back to next. System-first, not lesson-first.</p>
+      <p><code>Learning system</code> <code>Roadmap</code> <code>Product thinking</code> <code>Next.js</code></p>
+    </td>
+  </tr>
+</table>
+
+## Things I use
+
+`TypeScript` `JavaScript` `React` `Next.js` `Tailwind CSS` `Node.js` `Prisma`
+`PostgreSQL` `Git` `Vitest`
+
+## Find me here
+
+- [Portfolio](https://port-os-seven.vercel.app)
+- [Telegram](https://t.me/MaivandR123)
+- [Email](mailto:maivand123r@gmail.com)
