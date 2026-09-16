@@ -26,8 +26,8 @@ and Next.js.
 
 ## Now
 
-PortOS is the main thing I'm building around right now. AI Debate Arena is the
-other project taking up a lot of my attention.
+AI debate arena is under developement right now.
+Its the first really intresting product I'm building with ai.
 
 ## Projects
 
