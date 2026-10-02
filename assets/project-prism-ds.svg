@@ -1,0 +1,70 @@
+<svg width="760" height="300" viewBox="0 0 760 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="760" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#FAF7F0"/><stop offset="1" stop-color="#EDEAF3"/></linearGradient>
+    <linearGradient id="glass" x1="246" y1="152" x2="337" y2="237" gradientUnits="userSpaceOnUse"><stop stop-color="#EEE7FF"/><stop offset="0.5" stop-color="#BBA5E6"/><stop offset="1" stop-color="#8EA8D5"/></linearGradient>
+    <filter id="lift" x="425" y="16" width="319" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#282032" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="760" height="300" rx="20" fill="url(#canvas)"/>
+  <text x="34" y="40" fill="#29252F" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="-0.4">PrismDS</text>
+  <text x="34" y="78" fill="#29252F" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.8">Create design systems.</text>
+  <text x="34" y="105" fill="#756C80" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="-0.3">One shared contract.</text>
+
+  <rect x="34" y="146" width="164" height="117" rx="8" fill="#29252F"/>
+  <text x="49" y="166" fill="#B7ADC6" font-family="Menlo, Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="0.6">COMPONENT CONTRACT</text>
+  <path d="M49 177H183" stroke="#51485D"/>
+  <g fill="#F8F4ED" font-family="Menlo, Consolas, monospace" font-size="13">
+    <text x="49" y="200">&lt;Button /&gt;</text>
+    <text x="49" y="221">&lt;Input /&gt;</text>
+    <text x="49" y="242">&lt;Card /&gt;  …</text>
+  </g>
+
+  <path d="M198 206H269" stroke="#746783" stroke-width="3"/>
+  <circle cx="211" cy="206" r="3" fill="#746783"/>
+  <path d="M288 145L239 241H340L288 145Z" fill="url(#glass)" stroke="#766A8C" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M288 145L288 219L239 241M288 219L340 241" stroke="#FDFBFF" stroke-width="1.2" stroke-opacity="0.75"/>
+  <path d="M253 214L288 219L326 214" stroke="#6C6484" stroke-opacity="0.45"/>
+  <path d="M269 206L306 181C350 162 360 63 446 63" stroke="#527964" stroke-width="3"/>
+  <path d="M269 206L317 206C363 206 379 141 446 141" stroke="#E67752" stroke-width="3"/>
+  <path d="M269 206L324 227C362 243 389 219 446 219" stroke="#8C65CA" stroke-width="3"/>
+  <circle cx="437" cy="63" r="4" fill="#527964"/>
+  <circle cx="437" cy="141" r="4" fill="#E67752"/>
+  <circle cx="437" cy="219" r="4" fill="#8C65CA"/>
+
+  <g filter="url(#lift)">
+    <rect x="446" y="30" width="280" height="66" rx="6" fill="#FBFAF5" stroke="#C9D0C1"/>
+    <text x="461" y="59" fill="#284332" font-family="Georgia, serif" font-size="24">Aa</text>
+    <rect x="508" y="44" width="79" height="25" rx="4" fill="#497057"/>
+    <text x="526" y="60" fill="#F9FAF4" font-family="Arial, sans-serif" font-size="11" font-weight="700">Button</text>
+    <rect x="599" y="44" width="111" height="25" rx="4" fill="#F5F6EF" stroke="#BBC7B7"/>
+    <text x="609" y="60" fill="#7B8876" font-family="Arial, sans-serif" font-size="10">Input…</text>
+    <rect x="508" y="78" width="79" height="4" rx="2" fill="#C4D2BF"/>
+    <rect x="599" y="78" width="32" height="4" rx="2" fill="#497057"/>
+    <rect x="638" y="78" width="32" height="4" rx="2" fill="#BDCDB5"/>
+    <rect x="677" y="78" width="32" height="4" rx="2" fill="#E1DFCA"/>
+
+    <rect x="446" y="108" width="280" height="66" rx="3" fill="#25232E" stroke="#6B6278"/>
+    <text x="461" y="138" fill="#F4EBDD" font-family="Arial, sans-serif" font-size="23" font-weight="700">Aa</text>
+    <path d="M511 125H590V151H511V125Z" fill="#121119"/>
+    <rect x="508" y="122" width="79" height="25" fill="#F1835F"/>
+    <text x="521" y="138" fill="#29212A" font-family="Menlo, Consolas, monospace" font-size="10" font-weight="700">BUTTON</text>
+    <rect x="599" y="122" width="111" height="25" fill="#1C1B24" stroke="#71BBD1"/>
+    <text x="609" y="138" fill="#A6A0B3" font-family="Menlo, Consolas, monospace" font-size="10">Input_</text>
+    <path d="M508 160H587" stroke="#766C87" stroke-width="3"/>
+    <path d="M599 160H631" stroke="#F1835F" stroke-width="3"/>
+    <path d="M638 160H670" stroke="#71BBD1" stroke-width="3"/>
+    <path d="M677 160H709" stroke="#9A82BE" stroke-width="3"/>
+
+    <rect x="446" y="186" width="280" height="66" rx="14" fill="#E8DFF9" stroke="#C7B6E4"/>
+    <text x="461" y="216" fill="#664AA4" font-family="Georgia, serif" font-size="25" font-style="italic">Aa</text>
+    <rect x="508" y="200" width="79" height="25" rx="12.5" fill="#8960CF"/>
+    <text x="526" y="216" fill="#FFF9FF" font-family="Arial, sans-serif" font-size="11" font-weight="700">Button</text>
+    <rect x="599" y="200" width="111" height="25" rx="12.5" fill="#F7F1FF"/>
+    <text x="611" y="216" fill="#9277B5" font-family="Arial, sans-serif" font-size="10">Input…</text>
+    <rect x="508" y="235" width="79" height="4" rx="2" fill="#C1A8EA"/>
+    <circle cx="605" cy="237" r="4" fill="#8960CF"/>
+    <circle cx="628" cy="237" r="4" fill="#C1A8EA"/>
+    <circle cx="651" cy="237" r="4" fill="#EDD363"/>
+  </g>
+  <rect x="446" y="264" width="280" height="23" rx="4" stroke="#ABA0BD" stroke-dasharray="4 4"/>
+  <text x="494" y="279" fill="#77678D" font-family="Menlo, Consolas, monospace" font-size="10">+ CREATE YOUR NEXT SYSTEM</text>
+</svg>

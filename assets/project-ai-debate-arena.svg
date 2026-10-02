@@ -28,8 +28,9 @@
     <circle cx="78" cy="55" r="4" fill="#D99A45"/>
     <circle cx="92" cy="55" r="4" fill="#6B3B59"/>
     <text x="116" y="60" fill="#4A3040" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">AI DEBATE ARENA</text>
-    <rect x="570" y="46" width="124" height="20" rx="10" fill="#F3E5D5"/>
-    <text x="588" y="60" fill="#7A4C3F" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">MATCH / 05:00</text>
+    <rect x="570" y="46" width="124" height="20" rx="10" fill="#E9E2D9"/>
+    <path d="M587 52V60M592 52V60" stroke="#75685F" stroke-width="2" stroke-linecap="round"/>
+    <text x="601" y="60" fill="#75685F" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">ON BREAK</text>
 
     <rect x="58" y="92" width="136" height="154" rx="10" fill="#38292A"/>
     <text x="74" y="112" fill="#EFDCC8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">MATCH MODES</text>
@@ -49,7 +50,7 @@
     <rect x="208" y="92" width="492" height="154" rx="10" fill="url(#floor)"/>
     <path d="M208 201H700" stroke="#F8D889" stroke-opacity="0.18"/>
     <path d="M322 246L420 92M454 246L420 92M570 246L420 92" stroke="#F8D889" stroke-opacity="0.08"/>
-    <text x="228" y="112" fill="#EFDCC8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">SIX-TURN MATCH / LIVE FLOOR</text>
+    <text x="228" y="112" fill="#EFDCC8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">ARENA FLOOR / MATCHES PAUSED</text>
 
     <rect x="228" y="128" width="112" height="58" rx="9" fill="#B95F4C"/>
     <circle cx="250" cy="151" r="12" fill="#FBE5D9" fill-opacity="0.22" stroke="#F7C7B7"/>
