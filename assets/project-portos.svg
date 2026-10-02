@@ -1,104 +1,60 @@
 <svg width="760" height="300" viewBox="0 0 760 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A1020"/>
-      <stop offset="0.52" stop-color="#152D43"/>
-      <stop offset="1" stop-color="#203C4A"/>
-    </linearGradient>
-    <linearGradient id="desktop" x1="112" y1="88" x2="646" y2="222" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#234B61"/>
-      <stop offset="1" stop-color="#123039"/>
-    </linearGradient>
-    <linearGradient id="agent" x1="455" y1="91" x2="674" y2="229" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1D384D"/>
-      <stop offset="1" stop-color="#112334"/>
-    </linearGradient>
-    <filter id="shadow" x="28" y="27" width="704" height="250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="15" stdDeviation="16" flood-color="#020617" flood-opacity="0.55"/>
-    </filter>
-    <clipPath id="screen">
-      <rect x="42" y="38" width="676" height="224" rx="16"/>
-    </clipPath>
+    <linearGradient id="wallpaper" x1="0" y1="0" x2="760" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#2F4E95"/><stop offset="0.6" stop-color="#607CAF"/><stop offset="1" stop-color="#C3B6C5"/></linearGradient>
+    <filter id="window" x="102" y="37" width="648" height="220" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#12254A" flood-opacity="0.27"/></filter>
   </defs>
-
-  <rect width="760" height="300" rx="20" fill="url(#bg)"/>
-  <circle cx="663" cy="33" r="128" fill="#22C55E" fill-opacity="0.10"/>
-  <circle cx="76" cy="275" r="120" fill="#38BDF8" fill-opacity="0.08"/>
-
-  <g filter="url(#shadow)">
-    <rect x="42" y="38" width="676" height="224" rx="16" fill="#0F172A" stroke="#7DD3FC" stroke-opacity="0.42"/>
-    <g clip-path="url(#screen)">
-      <rect x="42" y="38" width="676" height="26" fill="#0B1322"/>
-      <circle cx="60" cy="51" r="4" fill="#FB7185"/>
-      <circle cx="74" cy="51" r="4" fill="#FBBF24"/>
-      <circle cx="88" cy="51" r="4" fill="#4ADE80"/>
-      <text x="110" y="55" fill="#F8FAFC" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">PortOS</text>
-      <text x="165" y="55" fill="#94A3B8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9">File</text>
-      <text x="194" y="55" fill="#94A3B8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9">View</text>
-      <text x="227" y="55" fill="#94A3B8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9">Window</text>
-      <text x="622" y="55" fill="#86EFAC" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">11 APPS</text>
-      <circle cx="691" cy="51" r="4" fill="#22C55E"/>
-
-      <rect x="42" y="64" width="676" height="180" fill="url(#desktop)"/>
-      <path d="M42 207C178 154 212 264 340 211C477 155 543 213 718 122V244H42V207Z" fill="#0B2735" fill-opacity="0.58"/>
-      <path d="M42 188C169 129 231 229 352 178C479 124 563 164 718 98" stroke="#67E8F9" stroke-opacity="0.16" stroke-width="2"/>
-
-      <g opacity="0.9">
-        <rect x="62" y="83" width="56" height="46" rx="10" fill="#123044" fill-opacity="0.8" stroke="#7DD3FC" stroke-opacity="0.35"/>
-        <rect x="76" y="94" width="28" height="21" rx="5" fill="#38BDF8" fill-opacity="0.22" stroke="#7DD3FC"/>
-        <path d="M84 104H96M90 98V110" stroke="#BAE6FD" stroke-width="2" stroke-linecap="round"/>
-        <text x="68" y="122" fill="#BAE6FD" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">Projects</text>
-        <rect x="62" y="140" width="56" height="46" rx="10" fill="#123044" fill-opacity="0.8" stroke="#86EFAC" stroke-opacity="0.35"/>
-        <rect x="76" y="151" width="28" height="21" rx="5" fill="#22C55E" fill-opacity="0.20" stroke="#86EFAC"/>
-        <path d="M82 157H98M82 163H94" stroke="#BBF7D0" stroke-width="2" stroke-linecap="round"/>
-        <text x="71" y="179" fill="#BBF7D0" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">Learning</text>
-      </g>
-
-      <g>
-        <rect x="132" y="80" width="292" height="146" rx="12" fill="#F8FAFC" fill-opacity="0.97"/>
-        <path d="M132 111H424" stroke="#CBD5E1"/>
-        <circle cx="151" cy="96" r="4" fill="#FB7185"/>
-        <circle cx="165" cy="96" r="4" fill="#FBBF24"/>
-        <circle cx="179" cy="96" r="4" fill="#4ADE80"/>
-        <text x="202" y="100" fill="#64748B" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9">My workspace</text>
-        <text x="155" y="135" fill="#0F172A" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="17" font-weight="700">A place for everything.</text>
-        <text x="155" y="153" fill="#64748B" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9">Projects, notes, learning, and whatever comes next.</text>
-        <rect x="155" y="173" width="74" height="32" rx="8" fill="#DCFCE7"/>
-        <text x="173" y="193" fill="#166534" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">PROJECTS</text>
-        <rect x="239" y="173" width="74" height="32" rx="8" fill="#E0F2FE"/>
-        <text x="259" y="193" fill="#075985" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">LEARN</text>
-        <rect x="323" y="173" width="74" height="32" rx="8" fill="#FEF3C7"/>
-        <text x="342" y="193" fill="#92400E" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">AGENTS</text>
-      </g>
-
-      <g>
-        <rect x="445" y="80" width="242" height="146" rx="12" fill="url(#agent)" stroke="#86EFAC" stroke-opacity="0.46"/>
-        <path d="M445 111H687" stroke="#86EFAC" stroke-opacity="0.24"/>
-        <circle cx="465" cy="96" r="7" fill="#22C55E" fill-opacity="0.18" stroke="#86EFAC"/>
-        <path d="M461 96H469M465 92V100" stroke="#BBF7D0" stroke-width="1.5" stroke-linecap="round"/>
-        <text x="482" y="100" fill="#DCFCE7" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">Maivand Agent</text>
-        <rect x="594" y="89" width="73" height="16" rx="8" fill="#22C55E" fill-opacity="0.16"/>
-        <text x="607" y="100" fill="#86EFAC" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">CONTEXT ON</text>
-        <rect x="463" y="124" width="166" height="24" rx="10" fill="#263F50"/>
-        <text x="476" y="140" fill="#CBD5E1" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9">What am I working on?</text>
-        <rect x="501" y="157" width="166" height="41" rx="10" fill="#DCFCE7"/>
-        <text x="516" y="173" fill="#14532D" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">PortOS · AI Arena</text>
-        <text x="516" y="188" fill="#166534" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">English OS is next.</text>
-        <circle cx="478" cy="212" r="4" fill="#22C55E"/>
-        <text x="489" y="215" fill="#86EFAC" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">another agent is ready to act</text>
-      </g>
-
-      <rect x="267" y="232" width="224" height="30" rx="15" fill="#0B1322" fill-opacity="0.92" stroke="#64748B" stroke-opacity="0.42"/>
-      <rect x="286" y="239" width="22" height="16" rx="5" fill="#DCFCE7"/>
-      <text x="293" y="251" fill="#166534" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">P</text>
-      <rect x="316" y="239" width="22" height="16" rx="5" fill="#E0F2FE"/>
-      <text x="323" y="251" fill="#075985" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">A</text>
-      <rect x="346" y="239" width="22" height="16" rx="5" fill="#FEF3C7"/>
-      <text x="353" y="251" fill="#92400E" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">L</text>
-      <rect x="376" y="239" width="22" height="16" rx="5" fill="#FCE7F3"/>
-      <text x="383" y="251" fill="#9D174D" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">N</text>
-      <rect x="406" y="239" width="22" height="16" rx="5" fill="#DBEAFE"/>
-      <text x="413" y="251" fill="#1D4ED8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">+</text>
-    </g>
+  <rect width="760" height="300" rx="20" fill="url(#wallpaper)"/>
+  <path d="M0 227C116 160 201 208 287 186C427 150 468 38 760 123V300H0V227Z" fill="#A1B4D1" fill-opacity="0.36"/>
+  <path d="M0 264C218 229 320 319 504 223C624 159 684 171 760 213V300H0V264Z" fill="#D4C6CF" fill-opacity="0.45"/>
+  <path d="M20 0H740Q760 0 760 20V26H0V20Q0 0 20 0Z" fill="#E6EBF3" fill-opacity="0.88"/>
+  <text x="24" y="18" fill="#243650" font-family="Arial, sans-serif" font-size="11" font-weight="700">PortOS</text>
+  <text x="88" y="18" fill="#52647E" font-family="Arial, sans-serif" font-size="10">File</text>
+  <text x="119" y="18" fill="#52647E" font-family="Arial, sans-serif" font-size="10">View</text>
+  <text x="158" y="18" fill="#52647E" font-family="Arial, sans-serif" font-size="10">Window</text>
+  <text x="637" y="18" fill="#52647E" font-family="Arial, sans-serif" font-size="9">Portfolio in a browser</text>
+  <g font-family="Arial, sans-serif" font-size="9" fill="#F8FAFF" text-anchor="middle">
+    <rect x="31" y="53" width="38" height="33" rx="8" fill="#F3DFA2"/>
+    <path d="M39 62H49L52 65H62V77H39V62Z" fill="#BE9442"/>
+    <text x="50" y="100">Projects</text>
+    <rect x="31" y="118" width="38" height="33" rx="8" fill="#E3E9F6"/>
+    <path d="M41 130H59M41 136H55M41 142H53" stroke="#6D85B3" stroke-width="2" stroke-linecap="round"/>
+    <text x="50" y="165">Notes</text>
+    <rect x="31" y="183" width="38" height="33" rx="8" fill="#293C60"/>
+    <path d="M39 193L44 198L39 203M49 203H59" stroke="#B4D7CE" stroke-width="2" stroke-linecap="round"/>
+    <text x="50" y="230">Terminal</text>
   </g>
+  <g filter="url(#window)">
+    <rect x="120" y="50" width="279" height="167" rx="10" fill="#F3F5FA"/>
+    <path d="M120 78H399" stroke="#D6DDE9"/>
+    <circle cx="135" cy="64" r="3" fill="#E18A85"/><circle cx="147" cy="64" r="3" fill="#E1BF70"/><circle cx="159" cy="64" r="3" fill="#8ABE96"/>
+    <text x="217" y="68" fill="#647187" font-family="Arial, sans-serif" font-size="10">Portfolio</text>
+    <text x="140" y="106" fill="#2B3C5A" font-family="Arial, sans-serif" font-size="18" font-weight="700">Explore my work.</text>
+    <rect x="140" y="119" width="108" height="75" rx="6" fill="#DEE7F6"/>
+    <path d="M155 164L165 142L175 164H155Z" fill="#92ACD2"/><rect x="179" y="140" width="51" height="26" rx="3" fill="#F3F6FC"/>
+    <text x="155" y="183" fill="#647CA6" font-family="Arial, sans-serif" font-size="10" font-weight="700">Projects</text>
+    <rect x="260" y="119" width="118" height="75" rx="6" fill="#E8DFEB"/>
+    <path d="M275 138H320M275 148H346M275 158H334" stroke="#B199BC" stroke-width="3" stroke-linecap="round"/>
+    <text x="275" y="183" fill="#92709E" font-family="Arial, sans-serif" font-size="10" font-weight="700">Résumé</text>
+    <rect x="377" y="82" width="347" height="157" rx="10" fill="#192944"/>
+    <path d="M377 110H724" stroke="#344A69"/>
+    <circle cx="394" cy="96" r="3" fill="#E18A85"/><circle cx="406" cy="96" r="3" fill="#E1BF70"/><circle cx="418" cy="96" r="3" fill="#8ABE96"/>
+    <text x="446" y="100" fill="#D7E1F1" font-family="Arial, sans-serif" font-size="11" font-weight="700">Maivand Agent</text>
+    <text x="398" y="135" fill="#A8BAD4" font-family="Arial, sans-serif" font-size="11">Show me Maivand’s projects.</text>
+    <text x="398" y="162" fill="#E8EEF9" font-family="Arial, sans-serif" font-size="12">I can open the portfolio for you.</text>
+    <rect x="398" y="177" width="136" height="27" rx="5" fill="#C6D9E2"/>
+    <text x="414" y="195" fill="#29475D" font-family="Arial, sans-serif" font-size="10" font-weight="700">OPEN PORTFOLIO →</text>
+    <text x="398" y="222" fill="#7E99B9" font-family="Arial, sans-serif" font-size="9">Answers from my work context · app actions</text>
+  </g>
+  <text x="31" y="264" fill="#F9FAFD" font-family="Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="-0.6">PortOS</text>
+  <text x="32" y="284" fill="#E5EBF8" font-family="Arial, sans-serif" font-size="12">Windows, apps, and an agent that knows my work.</text>
+  <rect x="460" y="259" width="257" height="32" rx="10" fill="#EFF3F9" fill-opacity="0.68" stroke="#FFFFFF" stroke-opacity="0.55"/>
+  <rect x="477" y="265" width="24" height="21" rx="5" fill="#EACD7F"/>
+  <rect x="514" y="265" width="24" height="21" rx="5" fill="#7FA3D2"/>
+  <rect x="551" y="265" width="24" height="21" rx="5" fill="#BAA0CA"/>
+  <rect x="588" y="265" width="24" height="21" rx="5" fill="#273D5E"/>
+  <rect x="625" y="265" width="24" height="21" rx="5" fill="#B3CBB9"/>
+  <rect x="662" y="265" width="24" height="21" rx="5" fill="#FAF6E8"/>
+  <path d="M483 275H495M520 271H532M520 278H530M557 271H569M557 278H567M594 271L599 275L594 279M631 274H643M637 268V280M668 271H680M668 278H680" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="1.5" stroke-linecap="round"/>
+
 </svg>

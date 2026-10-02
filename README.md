@@ -52,7 +52,7 @@ AI Debate Arena is on a break for now. I'm currently working on PrismDS and Rune
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/maivand-rahmani/crazy-eCommerce-project">
-        <img src="./assets/project-crazy-ecommerce.svg" alt="Illustration of the Cyber storefront and Crazy eCommerce admin console" width="100%" />
+        <img src="./assets/project-crazy-ecommerce.svg" alt="Crazy eCommerce: products, wishlist, a cart with coupons, and sandbox checkout in three languages" width="100%" />
       </a>
       <h3><a href="https://github.com/maivand-rahmani/crazy-eCommerce-project">Crazy eCommerce</a></h3>
       <p>A full-stack e-commerce platform with a real storefront and a private admin console. It handles products and variants, cart, wishlist, multilingual routes, sandbox checkout, orders and returns, users, coupons, reviews, and a PostgreSQL database behind it.</p>
@@ -61,10 +61,10 @@ AI Debate Arena is on a break for now. I'm currently working on PrismDS and Rune
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/maivand-rahmani/PortOS">
-        <img src="./assets/project-portos.svg" alt="Illustration of the PortOS browser operating system with apps and agents" width="100%" />
+        <img src="./assets/project-portos.svg" alt="PortOS: a portfolio desktop with floating app windows and an AI agent that can open apps" width="100%" />
       </a>
       <h3><a href="https://github.com/maivand-rahmani/PortOS">PortOS</a></h3>
-      <p>A real browser-based operating system inspired by macOS — with around eleven apps, my projects, my learning space, one agent that knows the context of my work and answers like me, and another agent that can actually do tasks inside the system.</p>
+      <p>A portfolio that works like a desktop in your browser. It has floating windows and apps for projects, notes, résumé, contacts, and a terminal. Its AI agent answers from my work context, opens apps, and drafts notes.</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>Feature-Sliced Design</code></p>
       <a href="https://port-os-seven.vercel.app">Visit PortOS →</a>
     </td>
@@ -72,19 +72,19 @@ AI Debate Arena is on a break for now. I'm currently working on PrismDS and Rune
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/maivand-rahmani/English-OS">
-        <img src="./assets/project-english-os.svg" alt="Illustration of the English OS personal learning system with next step, practice, review, and progress" width="100%" />
+        <img src="./assets/project-english-os.svg" alt="English OS: a daily learning plan that connects study, practice, and review across six skills" width="100%" />
       </a>
       <h3><a href="https://github.com/maivand-rahmani/English-OS">English OS</a></h3>
-      <p>My attempt to build a personal operating system for learning English. It turns scattered resources, levels, practice, review, and progress into one clear path: what to learn, why now, and what to come back to next. System-first, not lesson-first.</p>
+      <p>My attempt to build a personal system for learning English. It brings resources, a learning roadmap, practice, review, and progress into one place, so the next step is clear.</p>
       <p><code>Learning system</code> <code>Roadmap</code> <code>Product thinking</code> <code>Next.js</code></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/maivand-rahmani/ai-debate-arena">
-        <img src="./assets/project-ai-debate-arena.svg" alt="AI Debate Arena match modes with an on-break status" width="100%" />
+        <img src="./assets/project-ai-debate-arena.svg" alt="AI Debate Arena: two contenders debate on a studio stage while an independent AI judge evaluates their arguments; currently on break" width="100%" />
       </a>
       <h3><a href="https://github.com/maivand-rahmani/ai-debate-arena">AI Debate Arena · On break</a></h3>
-      <p>On break for now. Three match modes range from Quick online debates to Standard local tools and Extreme with Docker and terminal access; an AI judge scores the result.</p>
-      <p><code>Next.js</code> <code>TypeScript</code> <code>AI SDK</code> <code>Vitest</code></p>
+      <p>On break for now. Two AI contenders debate with evidence, and an independent AI judge scores the result. Quick is a six-turn first look; Standard runs locally with web search, URL fetch, and code tools.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>AI SDK</code> <code>React Three Fiber</code></p>
     </td>
   </tr>
 </table>

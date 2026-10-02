@@ -1,84 +1,72 @@
 <svg width="760" height="300" viewBox="0 0 760 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
-    <linearGradient id="arena-bg" x1="0" y1="0" x2="760" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F7EFE3"/>
-      <stop offset="1" stop-color="#E8D8C7"/>
-    </linearGradient>
-    <linearGradient id="floor" x1="220" y1="220" x2="680" y2="100" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#3A2929"/>
-      <stop offset="1" stop-color="#4A3040"/>
-    </linearGradient>
-    <linearGradient id="judge-platform" x1="366" y1="102" x2="430" y2="184" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8D889"/>
-      <stop offset="1" stop-color="#D99A45"/>
-    </linearGradient>
-    <filter id="arena-shadow" x="30" y="26" width="700" height="250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#402B2B" flood-opacity="0.22"/>
-    </filter>
+    <radialGradient id="studio" cx="0" cy="0" r="1" gradientTransform="translate(384 145) rotate(90) scale(183 400)" gradientUnits="userSpaceOnUse"><stop stop-color="#51413F"/><stop offset="1" stop-color="#221F25"/></radialGradient>
   </defs>
+  <rect width="760" height="300" rx="20" fill="url(#studio)"/>
+  <text x="32" y="40" fill="#F4E9D8" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="-0.6">AI Debate Arena</text>
+  <text x="33" y="63" fill="#AD9D95" font-family="Arial, sans-serif" font-size="13">Two AI contenders. One independent judge.</text>
+  <rect x="640" y="24" width="90" height="22" rx="4" fill="#44393E"/>
+  <path d="M651 30V40M656 30V40" stroke="#B7A8AD" stroke-width="2"/>
+  <text x="666" y="39" fill="#D5C9CD" font-family="Arial, sans-serif" font-size="9" font-weight="700">ON BREAK</text>
+  <path d="M92 232L222 132H538L670 232L578 272H182L92 232Z" fill="#47342E" stroke="#796353"/>
+  <path d="M220 269L299 132M381 272V132M538 269L461 132" stroke="#D4B68A" stroke-opacity="0.09"/>
+  <path d="M135 239H627" stroke="#CBB68F" stroke-opacity="0.10"/>
+  <ellipse cx="199" cy="233" rx="82" ry="15" fill="#1E1A20" fill-opacity="0.55"/>
+  <ellipse cx="562" cy="233" rx="82" ry="15" fill="#1E1A20" fill-opacity="0.55"/>
+  <ellipse cx="380" cy="199" rx="78" ry="14" fill="#1E1A20" fill-opacity="0.55"/>
+  <path d="M304 177L380 150L456 177V188L380 214L304 188V177Z" fill="#9C7647"/>
+  <path d="M304 177L380 199L456 177" fill="#D5AA66"/>
+  <text x="175" y="103" fill="#EBAE98" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">FOR</text>
+  <text x="524" y="103" fill="#C7A2C0" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">AGAINST</text>
+  <text x="346" y="94" fill="#E5C48D" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">AI JUDGE</text>
+<g transform="translate(199 153) scale(1)">
+      <path d="M-21 28Q-21 13 -6 10H6Q21 13 21 28V50H-21V28Z" fill="#BD6F54"/>
+      <path d="M-17 22L-31 40M17 22L31 40" stroke="#BD6F54" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="0" cy="-3" r="13" fill="#E5BE9E"/>
+      <path d="M-13 -4Q-14 -23 2 -21Q17 -22 13 -6L8 -13L-6 -11L-13 -4Z" fill="#352C2D"/>
+      <path d="M-5 -2H-3M4 -2H6" stroke="#59433C" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-4 5Q0 8 4 5" stroke="#AB7663" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-6 52L-10 72M7 52L11 72" stroke="#32272A" stroke-width="9" stroke-linecap="round"/>
+      <rect x="-43" y="35" width="86" height="8" rx="2" fill="#6C5147"/>
+      <path d="M-35 43L-31 66H31L35 43" fill="#47342F"/>
+      <rect x="-25" y="18" width="50" height="28" rx="3" fill="#302D31" stroke="#7C6D69"/>
+      <path d="M-10 46V51H10V46" stroke="#6E615C" stroke-width="2"/>
+      <path d="M-18 39H18" stroke="#BD6F54" stroke-width="2"/>
+    </g><g transform="translate(562 153) scale(1)">
+      <path d="M-21 28Q-21 13 -6 10H6Q21 13 21 28V50H-21V28Z" fill="#8A587D"/>
+      <path d="M-17 22L-31 40M17 22L31 40" stroke="#8A587D" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="0" cy="-3" r="13" fill="#E5BE9E"/>
+      <path d="M-13 -4Q-14 -23 2 -21Q17 -22 13 -6L8 -13L-6 -11L-13 -4Z" fill="#2D2732"/>
+      <path d="M-5 -2H-3M4 -2H6" stroke="#59433C" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-4 5Q0 8 4 5" stroke="#AB7663" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-6 52L-10 72M7 52L11 72" stroke="#32272A" stroke-width="9" stroke-linecap="round"/>
+      <rect x="-43" y="35" width="86" height="8" rx="2" fill="#6C5147"/>
+      <path d="M-35 43L-31 66H31L35 43" fill="#47342F"/>
+      <rect x="-25" y="18" width="50" height="28" rx="3" fill="#302D31" stroke="#7C6D69"/>
+      <path d="M-10 46V51H10V46" stroke="#6E615C" stroke-width="2"/>
+      <path d="M-18 39H18" stroke="#8A587D" stroke-width="2"/>
+    </g><g transform="translate(380 123) scale(1.12)">
+      <path d="M-21 28Q-21 13 -6 10H6Q21 13 21 28V50H-21V28Z" fill="#CBA264"/>
+      <path d="M-17 22L-31 40M17 22L31 40" stroke="#CBA264" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="0" cy="-3" r="13" fill="#E5BE9E"/>
+      <path d="M-13 -4Q-14 -23 2 -21Q17 -22 13 -6L8 -13L-6 -11L-13 -4Z" fill="#4D3630"/>
+      <path d="M-5 -2H-3M4 -2H6" stroke="#59433C" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-4 5Q0 8 4 5" stroke="#AB7663" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-6 52L-10 72M7 52L11 72" stroke="#32272A" stroke-width="9" stroke-linecap="round"/>
+      <rect x="-43" y="35" width="86" height="8" rx="2" fill="#6C5147"/>
+      <path d="M-35 43L-31 66H31L35 43" fill="#47342F"/>
+      <rect x="-25" y="18" width="50" height="28" rx="3" fill="#302D31" stroke="#7C6D69"/>
+      <path d="M-10 46V51H10V46" stroke="#6E615C" stroke-width="2"/>
+      <path d="M-18 39H18" stroke="#CBA264" stroke-width="2"/>
+    </g>
+  <path d="M255 167C287 138 294 133 332 135M505 167C477 140 467 134 429 135" stroke="#D8BF99" stroke-opacity="0.38" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <rect x="110" y="250" width="120" height="21" rx="4" fill="#6E4036"/>
+  <text x="129" y="264" fill="#EDC2B2" font-family="Arial, sans-serif" font-size="10">Claims + evidence</text>
+  <rect x="526" y="250" width="123" height="21" rx="4" fill="#54384F"/>
+  <text x="550" y="264" fill="#D9BED4" font-family="Arial, sans-serif" font-size="10">Counterarguments</text>
+  <text x="293" y="243" fill="#E4C18A" font-family="Arial, sans-serif" font-size="13" font-weight="700">Arguments → verdict</text>
+  <text x="34" y="287" fill="#A99A90" font-family="Arial, sans-serif" font-size="11">Quick · six turns</text>
+  <text x="568" y="287" fill="#A99A90" font-family="Arial, sans-serif" font-size="11">Standard · local tools</text>
 
-  <rect width="760" height="300" rx="20" fill="url(#arena-bg)"/>
-  <circle cx="84" cy="28" r="94" fill="#C96F55" fill-opacity="0.12"/>
-  <circle cx="708" cy="270" r="110" fill="#6B3B59" fill-opacity="0.12"/>
-
-  <g filter="url(#arena-shadow)">
-    <rect x="42" y="34" width="676" height="232" rx="16" fill="#FFF9F0" stroke="#B89478" stroke-opacity="0.65"/>
-    <path d="M42 76H718" stroke="#D8BFA8"/>
-    <circle cx="64" cy="55" r="4" fill="#C96F55"/>
-    <circle cx="78" cy="55" r="4" fill="#D99A45"/>
-    <circle cx="92" cy="55" r="4" fill="#6B3B59"/>
-    <text x="116" y="60" fill="#4A3040" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">AI DEBATE ARENA</text>
-    <rect x="570" y="46" width="124" height="20" rx="10" fill="#E9E2D9"/>
-    <path d="M587 52V60M592 52V60" stroke="#75685F" stroke-width="2" stroke-linecap="round"/>
-    <text x="601" y="60" fill="#75685F" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700">ON BREAK</text>
-
-    <rect x="58" y="92" width="136" height="154" rx="10" fill="#38292A"/>
-    <text x="74" y="112" fill="#EFDCC8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">MATCH MODES</text>
-
-    <rect x="70" y="124" width="112" height="32" rx="7" fill="#C96F55"/>
-    <text x="82" y="138" fill="#FFF7ED" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">QUICK</text>
-    <text x="82" y="150" fill="#FBE5D9" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">online / 2 agents</text>
-
-    <rect x="70" y="162" width="112" height="32" rx="7" fill="#4B3343" stroke="#D99A45" stroke-opacity="0.8"/>
-    <text x="82" y="176" fill="#F8D889" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">STANDARD</text>
-    <text x="82" y="188" fill="#EAD6C2" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">local / tools</text>
-
-    <rect x="70" y="200" width="112" height="32" rx="7" fill="#4B3343" stroke="#98728D" stroke-opacity="0.85"/>
-    <text x="82" y="214" fill="#E9C8DF" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">EXTREME</text>
-    <text x="82" y="226" fill="#EAD6C2" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">Docker / terminal</text>
-
-    <rect x="208" y="92" width="492" height="154" rx="10" fill="url(#floor)"/>
-    <path d="M208 201H700" stroke="#F8D889" stroke-opacity="0.18"/>
-    <path d="M322 246L420 92M454 246L420 92M570 246L420 92" stroke="#F8D889" stroke-opacity="0.08"/>
-    <text x="228" y="112" fill="#EFDCC8" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2">ARENA FLOOR / MATCHES PAUSED</text>
-
-    <rect x="228" y="128" width="112" height="58" rx="9" fill="#B95F4C"/>
-    <circle cx="250" cy="151" r="12" fill="#FBE5D9" fill-opacity="0.22" stroke="#F7C7B7"/>
-    <path d="M244 151H256M250 145V157" stroke="#FFF7ED" stroke-width="2" stroke-linecap="round"/>
-    <text x="272" y="151" fill="#FFF7ED" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="11" font-weight="700">FOR</text>
-    <text x="272" y="166" fill="#FBE5D9" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">opening argument</text>
-    <rect x="272" y="174" width="45" height="4" rx="2" fill="#FBE5D9" fill-opacity="0.55"/>
-
-    <rect x="580" y="128" width="102" height="58" rx="9" fill="#603B55"/>
-    <circle cx="602" cy="151" r="12" fill="#E9C8DF" fill-opacity="0.18" stroke="#D8A9C9"/>
-    <path d="M596 151H608M602 145V157" stroke="#FFF7ED" stroke-width="2" stroke-linecap="round"/>
-    <text x="624" y="151" fill="#F4DCEB" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="10" font-weight="700">AGAINST</text>
-    <text x="624" y="166" fill="#E9C8DF" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8">counterpoint</text>
-    <rect x="624" y="174" width="37" height="4" rx="2" fill="#E9C8DF" fill-opacity="0.55"/>
-
-    <path d="M340 157C365 137 378 137 398 149" stroke="#F8D889" stroke-opacity="0.65" stroke-width="2" stroke-dasharray="4 5"/>
-    <path d="M580 157C552 137 536 137 502 149" stroke="#F8D889" stroke-opacity="0.65" stroke-width="2" stroke-dasharray="4 5"/>
-
-    <ellipse cx="450" cy="204" rx="86" ry="16" fill="#D99A45" fill-opacity="0.26"/>
-    <rect x="402" y="132" width="96" height="70" rx="12" fill="url(#judge-platform)"/>
-    <path d="M424 157H476M424 169H466M424 181H454" stroke="#704026" stroke-width="4" stroke-linecap="round"/>
-    <text x="423" y="219" fill="#F8D889" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">AI JUDGE</text>
-
-    <rect x="228" y="216" width="88" height="18" rx="9" fill="#E8B9A5" fill-opacity="0.22"/>
-    <text x="242" y="228" fill="#FBE5D9" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">PY / JS / WEB</text>
-    <rect x="328" y="216" width="92" height="18" rx="9" fill="#F8D889" fill-opacity="0.2"/>
-    <text x="342" y="228" fill="#F8D889" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">URL FETCH</text>
-    <rect x="570" y="216" width="92" height="18" rx="9" fill="#C9A6BF" fill-opacity="0.2"/>
-    <text x="586" y="228" fill="#E9C8DF" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="8" font-weight="700">DOCKER / TERM</text>
-  </g>
 </svg>
