@@ -39,6 +39,7 @@ AI Debate Arena is on a break for now. I'm currently working on PrismDS and Rune
       <h3><a href="https://github.com/maivand-rahmani/prism-system">PrismDS</a></h3>
       <p>A toolkit for creating React design systems under one shared component contract. Each system implements that contract with its own colors, typography, component styles, states, and motion. You can create and validate a system, preview it in the showcase, publish it as an npm package, and use <code>prism-ds</code> to connect it to a product.</p>
       <p><code>TypeScript</code> <code>React</code> <code>Design systems</code> <code>pnpm</code></p>
+      <a href="https://prism-system.vercel.app">Explore PrismDS →</a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/maivand-rahmani/runeframe">
