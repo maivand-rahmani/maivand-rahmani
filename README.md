@@ -91,9 +91,14 @@ AI Debate Arena is on a break for now. I'm currently working on PrismDS and Rune
 
 ## Things I use
 
-`TypeScript` `JavaScript` `React` `Next.js` `Tailwind CSS` `Node.js` `Prisma`
-`PostgreSQL` `Git` `Vitest` </br>
-`And a lot of libraries and stuff :)`
+- **Languages:** `TypeScript` `JavaScript`
+- **Web & UI:** `React` `Next.js` `Tailwind CSS` `Zustand` `Framer Motion`
+- **3D & terminal:** `Three.js` `React Three Fiber` `Rapier` `Ink`
+- **Backend & AI:** `Node.js` `Prisma` `PostgreSQL` `NextAuth.js` `Zod` `AI SDK` `OpenAI SDK`
+- **Build & workflow:** `Git` `pnpm` `Turborepo` `tsup` `Changesets`
+- **Testing & quality:** `Vitest` `Testing Library` `Playwright` `ESLint` `Prettier`
+
+> Of course I don’t remember every API. That’s what the docs are for :)
 
 ## Find me here
 
